@@ -1,0 +1,18 @@
+Source: python-decouple
+Section: python
+Priority: extra
+Maintainer: John Giannelos <nemo@yiannelos.gr>
+Build-Depends: debhelper (>= 9), python-all, python3-all, python-tox, dh-python
+Standards-Version: 3.9.5
+
+Package: python-decouple
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1)
+Depends: ${misc:Depends}
+Description: Strict separation of settings from code.
+
+Package: python3-decouple
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1)
+Depends: ${misc:Depends}
+Description: Strict separation of settings from code.

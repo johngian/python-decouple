@@ -1,0 +1,5 @@
+python-decouple (3.0) unstable; urgency=low
+
+  * Initial debian packaging configuration.
+
+ -- John Giannelos <nemo@yiannelos.gr>  Fri, 07 Oct 2016 22:05:45 +0000

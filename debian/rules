@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=decouple
+
+override_dh_auto_test:
+	tox
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild
